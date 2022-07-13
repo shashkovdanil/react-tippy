@@ -5,6 +5,7 @@ import {
   Defaults
 } from './core/globals'
 import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 
 import init from './core/init'
 
@@ -144,10 +145,7 @@ class Tippy {
         )
       );
     } else {
-      ReactDOM.render(
-        updatedContent,
-        tooltipContent,
-      );
+      createRoot(tooltipContent).render(updatedContent);
     }
 
   }

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tvkhoa/react-tippy",
   "devDependencies": {
+    "@types/react": "*",
     "babel": "^6.23.0",
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.0",
@@ -35,8 +36,8 @@
     "flow-bin": "^0.42.0",
     "lodash-webpack-plugin": "^0.11.2",
     "mocha": "^3.2.0",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^5.0.5",
     "react-scripts": "0.9.5",
     "recompose": "^0.23.1",
@@ -44,8 +45,7 @@
     "redux-state-action": "^1.0.8",
     "redux-thunk": "^2.2.0",
     "webpack": "^2.3.0",
-    "yargs": "^7.0.2",
-    "@types/react": "*"
+    "yargs": "^7.0.2"
   },
   "dependencies": {
     "popper.js": "^1.11.1"
