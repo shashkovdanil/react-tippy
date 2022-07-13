@@ -2253,7 +2253,7 @@ var Tippy = function () {
       if (useContext) {
         setReactDOMValue(_reactDom2.default.createPortal(updatedContent, tooltipContent));
       } else {
-        (0, _client.createRoot)(tooltipContent).render(updatedContent);
+        tooltipContent.render(updatedContent);
       }
     }
     /**

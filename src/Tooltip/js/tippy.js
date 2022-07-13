@@ -145,7 +145,7 @@ class Tippy {
         )
       );
     } else {
-      createRoot(tooltipContent).render(updatedContent);
+      tooltipContent.render(updatedContent);
     }
 
   }
